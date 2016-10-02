@@ -1,0 +1,9 @@
+{{#light-table table height=height as |t|}}
+  {{t.head
+    onColumnClick=(action 'onColumnClick')
+    iconAscending='fa fa-sort-asc'
+    iconDescending='fa fa-sort-desc'
+    fixed=true
+  }}
+  {{t.body}}
+{{/light-table}}
